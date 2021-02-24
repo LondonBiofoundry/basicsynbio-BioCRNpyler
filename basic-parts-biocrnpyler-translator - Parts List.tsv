@@ -1,0 +1,28 @@
+Part Name	Part ID	Part Type	Part Description	References	Comment	BioCRNpyler Args
+sfGFP		CDS	Fluorescent Protein			"""protein"":""sfGFP"""
+mtagBFP2		CDS	Fluorescent Protein			"""protein"":""BFP2"""
+mCherry		CDS	Fluorescent Protein			"""protein"":""mCherry"""
+TetR		CDS	Tet Repressor			"""protein"":""tetR"""
+LacI		CDS	Lac Repressor			"""protein"":""lacR"""
+UTR1-RBS1		RBS	Linker RBSs		Weak	 
+UTR1-RBS2		RBS	Linker RBSs		Medium	 
+UTR1-RBS3		RBS	Linker RBSs		Strong	 
+UTR2-RBS1		RBS	Linker RBSs		Weak	 
+UTR2-RBS2		RBS	Linker RBSs		Medium	 
+UTR2-RBS3		RBS	Linker RBSs		Strong	 
+UTR3-RBS1		RBS	Linker RBSs		Weak	 
+UTR3-RBS2		RBS	Linker RBSs		Medium	 
+UTR3-RBS3		RBS	Linker RBSs		Strong	 
+Terminator1_J23105_RiboA		Terminator-ConstituitivePromoter	Insulated Promoter with self-cleaving RiboJ cite			 
+Terminator1_J23106_RiboA		Terminator-ConstituitivePromoter	Insulated Promoter with self-cleaving RiboJ cite			 
+Terminator1_J23101_RiboA		Terminator-ConstituitivePromoter	Insulated Promoter with self-cleaving RiboJ cite			 
+Terminator1_J23104_RiboA		Terminator-ConstituitivePromoter	Insulated Promoter with self-cleaving RiboJ cite			 
+Terminator1_TetR_RiboA		Terminator-RegulatedPromoter	Tet Repressed Promoter			"""regulators"" : [""protein_tetR""]"
+Terminator2_LacI_RiboB		Terminator-RegulatedPromoter	Lac Repressed Promoter			"""regulators"": [""protein_lacR""]"
+BASIC_SEVA_26		Backbone	BASIC SEVA vector containing Kanamycin resistance marker and p15A origin of replication.		Low Copy Number	 
+BASIC_SEVA_28		Backbone	BASIC SEVA vector containing Kanamycin resistance marker and pUC origin of replication.		Very High Copy Number	 
+BASIC_SEVA_36		Backbone	BASIC SEVA vector containing chloramphenicol resistance marker and p15A origin of replication.		Low Copy Number	 
+LMP		Linker	Methylated linker			 
+LMS		Linker	Methylated linker			 
+L1		Linker	Neutral linker			 
+						 
