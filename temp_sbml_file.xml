@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
-  <model id="biocrnpyler_990014" name="biocrnpyler_990014" substanceUnits="mole" timeUnits="second" volumeUnits="litre" areaUnits="square_metre" lengthUnits="metre" extentUnits="mole">
+  <model id="biocrnpyler_927492" name="biocrnpyler_927492" substanceUnits="mole" timeUnits="second" volumeUnits="litre" areaUnits="square_metre" lengthUnits="metre" extentUnits="mole">
     <listOfUnitDefinitions>
       <unitDefinition id="square_metre">
         <listOfUnits>
@@ -12,134 +12,520 @@
       <compartment id="default" name="default" spatialDimensions="3" size="1e-06" constant="true"/>
     </listOfCompartments>
     <listOfSpecies>
-      <species id="dna_dna_Terminator_ConstituitivePromoter_forward_dna_Terminator_ConstituitivePromoter_forward_dna_RBS_forward_dna_RBS_forward_dna_CDS_forward_dna_RBS_forward_dna_CDS_forward_circular_" name="dna_Terminator_ConstituitivePromoter_forward_dna_Terminator_ConstituitivePromoter_forward_dna_RBS_forward_dna_RBS_forward_dna_CDS_forward_dna_RBS_forward_dna_CDS_forward" compartment="default" initialConcentration="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="rna_rna_RBS_forward_rna_RBS_forward_rna_CDS_forward_rna_RBS_forward_rna_CDS_forward_rna_Terminator_ConstituitivePromoter_forward_" name="rna_RBS_forward_rna_RBS_forward_rna_CDS_forward_rna_RBS_forward_rna_CDS_forward_rna_Terminator_ConstituitivePromoter_forward" compartment="default" initialConcentration="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="protein_RBS" name="RBS" compartment="default" initialConcentration="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="protein_mCherry" name="mCherry" compartment="default" initialConcentration="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="dna_dna_BASIC_SEVA_26_forward_dna_Terminator1_forward_dna_TetR_RiboA_forward_dna_UTR1_RBS2_forward_dna_LacI_forward_dna_UTR2_RBS2_forward_dna_sfGFP_forward_dna_Terminator2_forward_dna_LacI_RiboB_forward_dna_UTR3_RBS2_forward_dna_TetR_forward_circular_" name="dna_BASIC_SEVA_26_forward_dna_Terminator1_forward_dna_TetR_RiboA_forward_dna_UTR1_RBS2_forward_dna_LacI_forward_dna_UTR2_RBS2_forward_dna_sfGFP_forward_dna_Terminator2_forward_dna_LacI_RiboB_forward_dna_UTR3_RBS2_forward_dna_TetR_forward" compartment="default" initialConcentration="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="ordered_polymer_dna_BASIC_SEVA_26_forward_dna_Terminator1_forward_complex_dna_TetR_RiboA_protein_tetR_2x_forward__dna_UTR1_RBS2_forward_dna_LacI_forward_dna_UTR2_RBS2_forward_dna_sfGFP_forward_dna_Terminator2_forward_dna_LacI_RiboB_forward_dna_UTR3_RBS2_forward_dna_TetR_forward_circular_" name="dna_BASIC_SEVA_26_forward_dna_Terminator1_forward_complex_dna_TetR_RiboA_protein_tetR_2x_forward__dna_UTR1_RBS2_forward_dna_LacI_forward_dna_UTR2_RBS2_forward_dna_sfGFP_forward_dna_Terminator2_forward_dna_LacI_RiboB_forward_dna_UTR3_RBS2_forward_dna_TetR_forward" compartment="default" initialConcentration="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="rna_rna_UTR3_RBS2_forward_rna_TetR_forward_rna_BASIC_SEVA_26_forward_rna_Terminator1_forward_" name="rna_UTR3_RBS2_forward_rna_TetR_forward_rna_BASIC_SEVA_26_forward_rna_Terminator1_forward" compartment="default" initialConcentration="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="protein_lacR" name="lacR" compartment="default" initialConcentration="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="ordered_polymer_dna_BASIC_SEVA_26_forward_dna_Terminator1_forward_complex_dna_TetR_RiboA_protein_tetR_2x_forward__dna_UTR1_RBS2_forward_dna_LacI_forward_dna_UTR2_RBS2_forward_dna_sfGFP_forward_dna_Terminator2_forward_complex_dna_LacI_RiboB_protein_lacR_2x_forward__dna_UTR3_RBS2_forward_dna_TetR_forward_circular_" name="dna_BASIC_SEVA_26_forward_dna_Terminator1_forward_complex_dna_TetR_RiboA_protein_tetR_2x_forward__dna_UTR1_RBS2_forward_dna_LacI_forward_dna_UTR2_RBS2_forward_dna_sfGFP_forward_dna_Terminator2_forward_complex_dna_LacI_RiboB_protein_lacR_2x_forward__dna_UTR3_RBS2_forward_dna_TetR_forward" compartment="default" initialConcentration="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="ordered_polymer_dna_BASIC_SEVA_26_forward_dna_Terminator1_forward_dna_TetR_RiboA_forward_dna_UTR1_RBS2_forward_dna_LacI_forward_dna_UTR2_RBS2_forward_dna_sfGFP_forward_dna_Terminator2_forward_complex_dna_LacI_RiboB_protein_lacR_2x_forward__dna_UTR3_RBS2_forward_dna_TetR_forward_circular_" name="dna_BASIC_SEVA_26_forward_dna_Terminator1_forward_dna_TetR_RiboA_forward_dna_UTR1_RBS2_forward_dna_LacI_forward_dna_UTR2_RBS2_forward_dna_sfGFP_forward_dna_Terminator2_forward_complex_dna_LacI_RiboB_protein_lacR_2x_forward__dna_UTR3_RBS2_forward_dna_TetR_forward" compartment="default" initialConcentration="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="rna_rna_UTR1_RBS2_forward_rna_LacI_forward_rna_UTR2_RBS2_forward_rna_sfGFP_forward_rna_Terminator2_forward_" name="rna_UTR1_RBS2_forward_rna_LacI_forward_rna_UTR2_RBS2_forward_rna_sfGFP_forward_rna_Terminator2_forward" compartment="default" initialConcentration="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="protein_tetR" name="tetR" compartment="default" initialConcentration="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
       <species id="protein_sfGFP" name="sfGFP" compartment="default" initialConcentration="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
     </listOfSpecies>
     <listOfParameters>
-      <parameter id="ktx__simple_transcription" value="0.1" constant="true"/>
-      <parameter id="ktl__simple_translation" value="0.25" constant="true"/>
+      <parameter id="ktx_LacI_RiboB_leak_" value="1" constant="true"/>
+      <parameter id="kb_LacI_RiboB_lacR_" value="500" constant="true"/>
+      <parameter id="ku_LacI_RiboB_lacR_" value="1" constant="true"/>
+      <parameter id="ktx_LacI_RiboB_lacR_" value="0.0001" constant="true"/>
+      <parameter id="ktx_TetR_RiboA_leak_" value="1" constant="true"/>
+      <parameter id="kb_TetR_RiboA_tetR_" value="500" constant="true"/>
+      <parameter id="ku_TetR_RiboA_tetR_" value="1" constant="true"/>
+      <parameter id="ktx_TetR_RiboA_tetR_" value="0.0001" constant="true"/>
+      <parameter id="ktl_UTR1_RBS2_simple_translation" value="0.075" constant="true"/>
+      <parameter id="ktl_UTR2_RBS2_simple_translation" value="0.075" constant="true"/>
+      <parameter id="ktl_UTR3_RBS2_simple_translation" value="0.075" constant="true"/>
       <parameter id="kdil__" value="0.001" constant="true"/>
       <parameter id="kdil__rna_degredation" value="0.001" constant="true"/>
     </listOfParameters>
     <listOfReactions>
       <reaction id="r0" name="r0" reversible="false">
         <annotation>
-          <PropensityType> k=ktx__simple_transcription type=massaction</PropensityType>
+          <PropensityType> k=ktx_LacI_RiboB_leak_ type=massaction</PropensityType>
         </annotation>
         <listOfReactants>
-          <speciesReference species="dna_dna_Terminator_ConstituitivePromoter_forward_dna_Terminator_ConstituitivePromoter_forward_dna_RBS_forward_dna_RBS_forward_dna_CDS_forward_dna_RBS_forward_dna_CDS_forward_circular_" stoichiometry="1" constant="false"/>
+          <speciesReference species="ordered_polymer_dna_BASIC_SEVA_26_forward_dna_Terminator1_forward_complex_dna_TetR_RiboA_protein_tetR_2x_forward__dna_UTR1_RBS2_forward_dna_LacI_forward_dna_UTR2_RBS2_forward_dna_sfGFP_forward_dna_Terminator2_forward_dna_LacI_RiboB_forward_dna_UTR3_RBS2_forward_dna_TetR_forward_circular_" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="dna_dna_Terminator_ConstituitivePromoter_forward_dna_Terminator_ConstituitivePromoter_forward_dna_RBS_forward_dna_RBS_forward_dna_CDS_forward_dna_RBS_forward_dna_CDS_forward_circular_" stoichiometry="1" constant="false"/>
-          <speciesReference species="rna_rna_RBS_forward_rna_RBS_forward_rna_CDS_forward_rna_RBS_forward_rna_CDS_forward_rna_Terminator_ConstituitivePromoter_forward_" stoichiometry="1" constant="false"/>
+          <speciesReference species="ordered_polymer_dna_BASIC_SEVA_26_forward_dna_Terminator1_forward_complex_dna_TetR_RiboA_protein_tetR_2x_forward__dna_UTR1_RBS2_forward_dna_LacI_forward_dna_UTR2_RBS2_forward_dna_sfGFP_forward_dna_Terminator2_forward_dna_LacI_RiboB_forward_dna_UTR3_RBS2_forward_dna_TetR_forward_circular_" stoichiometry="1" constant="false"/>
+          <speciesReference species="rna_rna_UTR3_RBS2_forward_rna_TetR_forward_rna_BASIC_SEVA_26_forward_rna_Terminator1_forward_" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
-              <ci> ktx__simple_transcription </ci>
-              <ci> dna_dna_Terminator_ConstituitivePromoter_forward_dna_Terminator_ConstituitivePromoter_forward_dna_RBS_forward_dna_RBS_forward_dna_CDS_forward_dna_RBS_forward_dna_CDS_forward_circular_ </ci>
+              <ci> ktx_LacI_RiboB_leak_ </ci>
+              <ci> ordered_polymer_dna_BASIC_SEVA_26_forward_dna_Terminator1_forward_complex_dna_TetR_RiboA_protein_tetR_2x_forward__dna_UTR1_RBS2_forward_dna_LacI_forward_dna_UTR2_RBS2_forward_dna_sfGFP_forward_dna_Terminator2_forward_dna_LacI_RiboB_forward_dna_UTR3_RBS2_forward_dna_TetR_forward_circular_ </ci>
             </apply>
           </math>
         </kineticLaw>
       </reaction>
       <reaction id="r1" name="r1" reversible="false">
         <annotation>
-          <PropensityType> k=ktl__simple_translation type=massaction</PropensityType>
+          <PropensityType> k=kb_LacI_RiboB_lacR_ type=massaction</PropensityType>
         </annotation>
         <listOfReactants>
-          <speciesReference species="rna_rna_RBS_forward_rna_RBS_forward_rna_CDS_forward_rna_RBS_forward_rna_CDS_forward_rna_Terminator_ConstituitivePromoter_forward_" stoichiometry="1" constant="false"/>
+          <speciesReference species="protein_lacR" stoichiometry="2" constant="false"/>
+          <speciesReference species="ordered_polymer_dna_BASIC_SEVA_26_forward_dna_Terminator1_forward_complex_dna_TetR_RiboA_protein_tetR_2x_forward__dna_UTR1_RBS2_forward_dna_LacI_forward_dna_UTR2_RBS2_forward_dna_sfGFP_forward_dna_Terminator2_forward_dna_LacI_RiboB_forward_dna_UTR3_RBS2_forward_dna_TetR_forward_circular_" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="rna_rna_RBS_forward_rna_RBS_forward_rna_CDS_forward_rna_RBS_forward_rna_CDS_forward_rna_Terminator_ConstituitivePromoter_forward_" stoichiometry="1" constant="false"/>
-          <speciesReference species="protein_mCherry" stoichiometry="1" constant="false"/>
+          <speciesReference species="ordered_polymer_dna_BASIC_SEVA_26_forward_dna_Terminator1_forward_complex_dna_TetR_RiboA_protein_tetR_2x_forward__dna_UTR1_RBS2_forward_dna_LacI_forward_dna_UTR2_RBS2_forward_dna_sfGFP_forward_dna_Terminator2_forward_complex_dna_LacI_RiboB_protein_lacR_2x_forward__dna_UTR3_RBS2_forward_dna_TetR_forward_circular_" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
-              <ci> ktl__simple_translation </ci>
-              <ci> rna_rna_RBS_forward_rna_RBS_forward_rna_CDS_forward_rna_RBS_forward_rna_CDS_forward_rna_Terminator_ConstituitivePromoter_forward_ </ci>
+              <ci> kb_LacI_RiboB_lacR_ </ci>
+              <apply>
+                <power/>
+                <ci> protein_lacR </ci>
+                <cn type="integer"> 2 </cn>
+              </apply>
+              <ci> ordered_polymer_dna_BASIC_SEVA_26_forward_dna_Terminator1_forward_complex_dna_TetR_RiboA_protein_tetR_2x_forward__dna_UTR1_RBS2_forward_dna_LacI_forward_dna_UTR2_RBS2_forward_dna_sfGFP_forward_dna_Terminator2_forward_dna_LacI_RiboB_forward_dna_UTR3_RBS2_forward_dna_TetR_forward_circular_ </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="r1rev" name="r1rev" reversible="false">
+        <annotation>
+          <PropensityType> k=ku_LacI_RiboB_lacR_ type=massaction</PropensityType>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="ordered_polymer_dna_BASIC_SEVA_26_forward_dna_Terminator1_forward_complex_dna_TetR_RiboA_protein_tetR_2x_forward__dna_UTR1_RBS2_forward_dna_LacI_forward_dna_UTR2_RBS2_forward_dna_sfGFP_forward_dna_Terminator2_forward_complex_dna_LacI_RiboB_protein_lacR_2x_forward__dna_UTR3_RBS2_forward_dna_TetR_forward_circular_" stoichiometry="1" constant="false"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="protein_lacR" stoichiometry="2" constant="false"/>
+          <speciesReference species="ordered_polymer_dna_BASIC_SEVA_26_forward_dna_Terminator1_forward_complex_dna_TetR_RiboA_protein_tetR_2x_forward__dna_UTR1_RBS2_forward_dna_LacI_forward_dna_UTR2_RBS2_forward_dna_sfGFP_forward_dna_Terminator2_forward_dna_LacI_RiboB_forward_dna_UTR3_RBS2_forward_dna_TetR_forward_circular_" stoichiometry="1" constant="false"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> ku_LacI_RiboB_lacR_ </ci>
+              <ci> ordered_polymer_dna_BASIC_SEVA_26_forward_dna_Terminator1_forward_complex_dna_TetR_RiboA_protein_tetR_2x_forward__dna_UTR1_RBS2_forward_dna_LacI_forward_dna_UTR2_RBS2_forward_dna_sfGFP_forward_dna_Terminator2_forward_complex_dna_LacI_RiboB_protein_lacR_2x_forward__dna_UTR3_RBS2_forward_dna_TetR_forward_circular_ </ci>
             </apply>
           </math>
         </kineticLaw>
       </reaction>
       <reaction id="r2" name="r2" reversible="false">
         <annotation>
-          <PropensityType> k=ktl__simple_translation type=massaction</PropensityType>
+          <PropensityType> k=ktx_LacI_RiboB_lacR_ type=massaction</PropensityType>
         </annotation>
         <listOfReactants>
-          <speciesReference species="rna_rna_RBS_forward_rna_RBS_forward_rna_CDS_forward_rna_RBS_forward_rna_CDS_forward_rna_Terminator_ConstituitivePromoter_forward_" stoichiometry="1" constant="false"/>
+          <speciesReference species="ordered_polymer_dna_BASIC_SEVA_26_forward_dna_Terminator1_forward_complex_dna_TetR_RiboA_protein_tetR_2x_forward__dna_UTR1_RBS2_forward_dna_LacI_forward_dna_UTR2_RBS2_forward_dna_sfGFP_forward_dna_Terminator2_forward_complex_dna_LacI_RiboB_protein_lacR_2x_forward__dna_UTR3_RBS2_forward_dna_TetR_forward_circular_" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="rna_rna_RBS_forward_rna_RBS_forward_rna_CDS_forward_rna_RBS_forward_rna_CDS_forward_rna_Terminator_ConstituitivePromoter_forward_" stoichiometry="1" constant="false"/>
-          <speciesReference species="protein_sfGFP" stoichiometry="1" constant="false"/>
+          <speciesReference species="ordered_polymer_dna_BASIC_SEVA_26_forward_dna_Terminator1_forward_complex_dna_TetR_RiboA_protein_tetR_2x_forward__dna_UTR1_RBS2_forward_dna_LacI_forward_dna_UTR2_RBS2_forward_dna_sfGFP_forward_dna_Terminator2_forward_complex_dna_LacI_RiboB_protein_lacR_2x_forward__dna_UTR3_RBS2_forward_dna_TetR_forward_circular_" stoichiometry="1" constant="false"/>
+          <speciesReference species="rna_rna_UTR3_RBS2_forward_rna_TetR_forward_rna_BASIC_SEVA_26_forward_rna_Terminator1_forward_" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
-              <ci> ktl__simple_translation </ci>
-              <ci> rna_rna_RBS_forward_rna_RBS_forward_rna_CDS_forward_rna_RBS_forward_rna_CDS_forward_rna_Terminator_ConstituitivePromoter_forward_ </ci>
+              <ci> ktx_LacI_RiboB_lacR_ </ci>
+              <ci> ordered_polymer_dna_BASIC_SEVA_26_forward_dna_Terminator1_forward_complex_dna_TetR_RiboA_protein_tetR_2x_forward__dna_UTR1_RBS2_forward_dna_LacI_forward_dna_UTR2_RBS2_forward_dna_sfGFP_forward_dna_Terminator2_forward_complex_dna_LacI_RiboB_protein_lacR_2x_forward__dna_UTR3_RBS2_forward_dna_TetR_forward_circular_ </ci>
             </apply>
           </math>
         </kineticLaw>
       </reaction>
       <reaction id="r3" name="r3" reversible="false">
         <annotation>
-          <PropensityType> k=kdil__ type=massaction</PropensityType>
+          <PropensityType> k=ktx_TetR_RiboA_leak_ type=massaction</PropensityType>
         </annotation>
         <listOfReactants>
-          <speciesReference species="rna_rna_RBS_forward_rna_RBS_forward_rna_CDS_forward_rna_RBS_forward_rna_CDS_forward_rna_Terminator_ConstituitivePromoter_forward_" stoichiometry="1" constant="false"/>
+          <speciesReference species="ordered_polymer_dna_BASIC_SEVA_26_forward_dna_Terminator1_forward_dna_TetR_RiboA_forward_dna_UTR1_RBS2_forward_dna_LacI_forward_dna_UTR2_RBS2_forward_dna_sfGFP_forward_dna_Terminator2_forward_complex_dna_LacI_RiboB_protein_lacR_2x_forward__dna_UTR3_RBS2_forward_dna_TetR_forward_circular_" stoichiometry="1" constant="false"/>
         </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="ordered_polymer_dna_BASIC_SEVA_26_forward_dna_Terminator1_forward_dna_TetR_RiboA_forward_dna_UTR1_RBS2_forward_dna_LacI_forward_dna_UTR2_RBS2_forward_dna_sfGFP_forward_dna_Terminator2_forward_complex_dna_LacI_RiboB_protein_lacR_2x_forward__dna_UTR3_RBS2_forward_dna_TetR_forward_circular_" stoichiometry="1" constant="false"/>
+          <speciesReference species="rna_rna_UTR1_RBS2_forward_rna_LacI_forward_rna_UTR2_RBS2_forward_rna_sfGFP_forward_rna_Terminator2_forward_" stoichiometry="1" constant="false"/>
+        </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
-              <ci> kdil__ </ci>
-              <ci> rna_rna_RBS_forward_rna_RBS_forward_rna_CDS_forward_rna_RBS_forward_rna_CDS_forward_rna_Terminator_ConstituitivePromoter_forward_ </ci>
+              <ci> ktx_TetR_RiboA_leak_ </ci>
+              <ci> ordered_polymer_dna_BASIC_SEVA_26_forward_dna_Terminator1_forward_dna_TetR_RiboA_forward_dna_UTR1_RBS2_forward_dna_LacI_forward_dna_UTR2_RBS2_forward_dna_sfGFP_forward_dna_Terminator2_forward_complex_dna_LacI_RiboB_protein_lacR_2x_forward__dna_UTR3_RBS2_forward_dna_TetR_forward_circular_ </ci>
             </apply>
           </math>
         </kineticLaw>
       </reaction>
       <reaction id="r4" name="r4" reversible="false">
         <annotation>
-          <PropensityType> k=kdil__ type=massaction</PropensityType>
+          <PropensityType> k=kb_TetR_RiboA_tetR_ type=massaction</PropensityType>
         </annotation>
         <listOfReactants>
-          <speciesReference species="protein_RBS" stoichiometry="1" constant="false"/>
+          <speciesReference species="protein_tetR" stoichiometry="2" constant="false"/>
+          <speciesReference species="ordered_polymer_dna_BASIC_SEVA_26_forward_dna_Terminator1_forward_dna_TetR_RiboA_forward_dna_UTR1_RBS2_forward_dna_LacI_forward_dna_UTR2_RBS2_forward_dna_sfGFP_forward_dna_Terminator2_forward_complex_dna_LacI_RiboB_protein_lacR_2x_forward__dna_UTR3_RBS2_forward_dna_TetR_forward_circular_" stoichiometry="1" constant="false"/>
         </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="ordered_polymer_dna_BASIC_SEVA_26_forward_dna_Terminator1_forward_complex_dna_TetR_RiboA_protein_tetR_2x_forward__dna_UTR1_RBS2_forward_dna_LacI_forward_dna_UTR2_RBS2_forward_dna_sfGFP_forward_dna_Terminator2_forward_complex_dna_LacI_RiboB_protein_lacR_2x_forward__dna_UTR3_RBS2_forward_dna_TetR_forward_circular_" stoichiometry="1" constant="false"/>
+        </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
-              <ci> kdil__ </ci>
-              <ci> protein_RBS </ci>
+              <ci> kb_TetR_RiboA_tetR_ </ci>
+              <apply>
+                <power/>
+                <ci> protein_tetR </ci>
+                <cn type="integer"> 2 </cn>
+              </apply>
+              <ci> ordered_polymer_dna_BASIC_SEVA_26_forward_dna_Terminator1_forward_dna_TetR_RiboA_forward_dna_UTR1_RBS2_forward_dna_LacI_forward_dna_UTR2_RBS2_forward_dna_sfGFP_forward_dna_Terminator2_forward_complex_dna_LacI_RiboB_protein_lacR_2x_forward__dna_UTR3_RBS2_forward_dna_TetR_forward_circular_ </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="r4rev" name="r4rev" reversible="false">
+        <annotation>
+          <PropensityType> k=ku_TetR_RiboA_tetR_ type=massaction</PropensityType>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="ordered_polymer_dna_BASIC_SEVA_26_forward_dna_Terminator1_forward_complex_dna_TetR_RiboA_protein_tetR_2x_forward__dna_UTR1_RBS2_forward_dna_LacI_forward_dna_UTR2_RBS2_forward_dna_sfGFP_forward_dna_Terminator2_forward_complex_dna_LacI_RiboB_protein_lacR_2x_forward__dna_UTR3_RBS2_forward_dna_TetR_forward_circular_" stoichiometry="1" constant="false"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="protein_tetR" stoichiometry="2" constant="false"/>
+          <speciesReference species="ordered_polymer_dna_BASIC_SEVA_26_forward_dna_Terminator1_forward_dna_TetR_RiboA_forward_dna_UTR1_RBS2_forward_dna_LacI_forward_dna_UTR2_RBS2_forward_dna_sfGFP_forward_dna_Terminator2_forward_complex_dna_LacI_RiboB_protein_lacR_2x_forward__dna_UTR3_RBS2_forward_dna_TetR_forward_circular_" stoichiometry="1" constant="false"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> ku_TetR_RiboA_tetR_ </ci>
+              <ci> ordered_polymer_dna_BASIC_SEVA_26_forward_dna_Terminator1_forward_complex_dna_TetR_RiboA_protein_tetR_2x_forward__dna_UTR1_RBS2_forward_dna_LacI_forward_dna_UTR2_RBS2_forward_dna_sfGFP_forward_dna_Terminator2_forward_complex_dna_LacI_RiboB_protein_lacR_2x_forward__dna_UTR3_RBS2_forward_dna_TetR_forward_circular_ </ci>
             </apply>
           </math>
         </kineticLaw>
       </reaction>
       <reaction id="r5" name="r5" reversible="false">
         <annotation>
+          <PropensityType> k=ktx_TetR_RiboA_tetR_ type=massaction</PropensityType>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="ordered_polymer_dna_BASIC_SEVA_26_forward_dna_Terminator1_forward_complex_dna_TetR_RiboA_protein_tetR_2x_forward__dna_UTR1_RBS2_forward_dna_LacI_forward_dna_UTR2_RBS2_forward_dna_sfGFP_forward_dna_Terminator2_forward_complex_dna_LacI_RiboB_protein_lacR_2x_forward__dna_UTR3_RBS2_forward_dna_TetR_forward_circular_" stoichiometry="1" constant="false"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="ordered_polymer_dna_BASIC_SEVA_26_forward_dna_Terminator1_forward_complex_dna_TetR_RiboA_protein_tetR_2x_forward__dna_UTR1_RBS2_forward_dna_LacI_forward_dna_UTR2_RBS2_forward_dna_sfGFP_forward_dna_Terminator2_forward_complex_dna_LacI_RiboB_protein_lacR_2x_forward__dna_UTR3_RBS2_forward_dna_TetR_forward_circular_" stoichiometry="1" constant="false"/>
+          <speciesReference species="rna_rna_UTR1_RBS2_forward_rna_LacI_forward_rna_UTR2_RBS2_forward_rna_sfGFP_forward_rna_Terminator2_forward_" stoichiometry="1" constant="false"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> ktx_TetR_RiboA_tetR_ </ci>
+              <ci> ordered_polymer_dna_BASIC_SEVA_26_forward_dna_Terminator1_forward_complex_dna_TetR_RiboA_protein_tetR_2x_forward__dna_UTR1_RBS2_forward_dna_LacI_forward_dna_UTR2_RBS2_forward_dna_sfGFP_forward_dna_Terminator2_forward_complex_dna_LacI_RiboB_protein_lacR_2x_forward__dna_UTR3_RBS2_forward_dna_TetR_forward_circular_ </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="r6" name="r6" reversible="false">
+        <annotation>
+          <PropensityType> k=ktx_TetR_RiboA_leak_ type=massaction</PropensityType>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="dna_dna_BASIC_SEVA_26_forward_dna_Terminator1_forward_dna_TetR_RiboA_forward_dna_UTR1_RBS2_forward_dna_LacI_forward_dna_UTR2_RBS2_forward_dna_sfGFP_forward_dna_Terminator2_forward_dna_LacI_RiboB_forward_dna_UTR3_RBS2_forward_dna_TetR_forward_circular_" stoichiometry="1" constant="false"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="dna_dna_BASIC_SEVA_26_forward_dna_Terminator1_forward_dna_TetR_RiboA_forward_dna_UTR1_RBS2_forward_dna_LacI_forward_dna_UTR2_RBS2_forward_dna_sfGFP_forward_dna_Terminator2_forward_dna_LacI_RiboB_forward_dna_UTR3_RBS2_forward_dna_TetR_forward_circular_" stoichiometry="1" constant="false"/>
+          <speciesReference species="rna_rna_UTR1_RBS2_forward_rna_LacI_forward_rna_UTR2_RBS2_forward_rna_sfGFP_forward_rna_Terminator2_forward_" stoichiometry="1" constant="false"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> ktx_TetR_RiboA_leak_ </ci>
+              <ci> dna_dna_BASIC_SEVA_26_forward_dna_Terminator1_forward_dna_TetR_RiboA_forward_dna_UTR1_RBS2_forward_dna_LacI_forward_dna_UTR2_RBS2_forward_dna_sfGFP_forward_dna_Terminator2_forward_dna_LacI_RiboB_forward_dna_UTR3_RBS2_forward_dna_TetR_forward_circular_ </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="r7" name="r7" reversible="false">
+        <annotation>
+          <PropensityType> k=kb_TetR_RiboA_tetR_ type=massaction</PropensityType>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="protein_tetR" stoichiometry="2" constant="false"/>
+          <speciesReference species="dna_dna_BASIC_SEVA_26_forward_dna_Terminator1_forward_dna_TetR_RiboA_forward_dna_UTR1_RBS2_forward_dna_LacI_forward_dna_UTR2_RBS2_forward_dna_sfGFP_forward_dna_Terminator2_forward_dna_LacI_RiboB_forward_dna_UTR3_RBS2_forward_dna_TetR_forward_circular_" stoichiometry="1" constant="false"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="ordered_polymer_dna_BASIC_SEVA_26_forward_dna_Terminator1_forward_complex_dna_TetR_RiboA_protein_tetR_2x_forward__dna_UTR1_RBS2_forward_dna_LacI_forward_dna_UTR2_RBS2_forward_dna_sfGFP_forward_dna_Terminator2_forward_dna_LacI_RiboB_forward_dna_UTR3_RBS2_forward_dna_TetR_forward_circular_" stoichiometry="1" constant="false"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kb_TetR_RiboA_tetR_ </ci>
+              <apply>
+                <power/>
+                <ci> protein_tetR </ci>
+                <cn type="integer"> 2 </cn>
+              </apply>
+              <ci> dna_dna_BASIC_SEVA_26_forward_dna_Terminator1_forward_dna_TetR_RiboA_forward_dna_UTR1_RBS2_forward_dna_LacI_forward_dna_UTR2_RBS2_forward_dna_sfGFP_forward_dna_Terminator2_forward_dna_LacI_RiboB_forward_dna_UTR3_RBS2_forward_dna_TetR_forward_circular_ </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="r7rev" name="r7rev" reversible="false">
+        <annotation>
+          <PropensityType> k=ku_TetR_RiboA_tetR_ type=massaction</PropensityType>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="ordered_polymer_dna_BASIC_SEVA_26_forward_dna_Terminator1_forward_complex_dna_TetR_RiboA_protein_tetR_2x_forward__dna_UTR1_RBS2_forward_dna_LacI_forward_dna_UTR2_RBS2_forward_dna_sfGFP_forward_dna_Terminator2_forward_dna_LacI_RiboB_forward_dna_UTR3_RBS2_forward_dna_TetR_forward_circular_" stoichiometry="1" constant="false"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="protein_tetR" stoichiometry="2" constant="false"/>
+          <speciesReference species="dna_dna_BASIC_SEVA_26_forward_dna_Terminator1_forward_dna_TetR_RiboA_forward_dna_UTR1_RBS2_forward_dna_LacI_forward_dna_UTR2_RBS2_forward_dna_sfGFP_forward_dna_Terminator2_forward_dna_LacI_RiboB_forward_dna_UTR3_RBS2_forward_dna_TetR_forward_circular_" stoichiometry="1" constant="false"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> ku_TetR_RiboA_tetR_ </ci>
+              <ci> ordered_polymer_dna_BASIC_SEVA_26_forward_dna_Terminator1_forward_complex_dna_TetR_RiboA_protein_tetR_2x_forward__dna_UTR1_RBS2_forward_dna_LacI_forward_dna_UTR2_RBS2_forward_dna_sfGFP_forward_dna_Terminator2_forward_dna_LacI_RiboB_forward_dna_UTR3_RBS2_forward_dna_TetR_forward_circular_ </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="r8" name="r8" reversible="false">
+        <annotation>
+          <PropensityType> k=ktx_TetR_RiboA_tetR_ type=massaction</PropensityType>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="ordered_polymer_dna_BASIC_SEVA_26_forward_dna_Terminator1_forward_complex_dna_TetR_RiboA_protein_tetR_2x_forward__dna_UTR1_RBS2_forward_dna_LacI_forward_dna_UTR2_RBS2_forward_dna_sfGFP_forward_dna_Terminator2_forward_dna_LacI_RiboB_forward_dna_UTR3_RBS2_forward_dna_TetR_forward_circular_" stoichiometry="1" constant="false"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="ordered_polymer_dna_BASIC_SEVA_26_forward_dna_Terminator1_forward_complex_dna_TetR_RiboA_protein_tetR_2x_forward__dna_UTR1_RBS2_forward_dna_LacI_forward_dna_UTR2_RBS2_forward_dna_sfGFP_forward_dna_Terminator2_forward_dna_LacI_RiboB_forward_dna_UTR3_RBS2_forward_dna_TetR_forward_circular_" stoichiometry="1" constant="false"/>
+          <speciesReference species="rna_rna_UTR1_RBS2_forward_rna_LacI_forward_rna_UTR2_RBS2_forward_rna_sfGFP_forward_rna_Terminator2_forward_" stoichiometry="1" constant="false"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> ktx_TetR_RiboA_tetR_ </ci>
+              <ci> ordered_polymer_dna_BASIC_SEVA_26_forward_dna_Terminator1_forward_complex_dna_TetR_RiboA_protein_tetR_2x_forward__dna_UTR1_RBS2_forward_dna_LacI_forward_dna_UTR2_RBS2_forward_dna_sfGFP_forward_dna_Terminator2_forward_dna_LacI_RiboB_forward_dna_UTR3_RBS2_forward_dna_TetR_forward_circular_ </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="r9" name="r9" reversible="false">
+        <annotation>
+          <PropensityType> k=ktx_LacI_RiboB_leak_ type=massaction</PropensityType>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="dna_dna_BASIC_SEVA_26_forward_dna_Terminator1_forward_dna_TetR_RiboA_forward_dna_UTR1_RBS2_forward_dna_LacI_forward_dna_UTR2_RBS2_forward_dna_sfGFP_forward_dna_Terminator2_forward_dna_LacI_RiboB_forward_dna_UTR3_RBS2_forward_dna_TetR_forward_circular_" stoichiometry="1" constant="false"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="dna_dna_BASIC_SEVA_26_forward_dna_Terminator1_forward_dna_TetR_RiboA_forward_dna_UTR1_RBS2_forward_dna_LacI_forward_dna_UTR2_RBS2_forward_dna_sfGFP_forward_dna_Terminator2_forward_dna_LacI_RiboB_forward_dna_UTR3_RBS2_forward_dna_TetR_forward_circular_" stoichiometry="1" constant="false"/>
+          <speciesReference species="rna_rna_UTR3_RBS2_forward_rna_TetR_forward_rna_BASIC_SEVA_26_forward_rna_Terminator1_forward_" stoichiometry="1" constant="false"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> ktx_LacI_RiboB_leak_ </ci>
+              <ci> dna_dna_BASIC_SEVA_26_forward_dna_Terminator1_forward_dna_TetR_RiboA_forward_dna_UTR1_RBS2_forward_dna_LacI_forward_dna_UTR2_RBS2_forward_dna_sfGFP_forward_dna_Terminator2_forward_dna_LacI_RiboB_forward_dna_UTR3_RBS2_forward_dna_TetR_forward_circular_ </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="r10" name="r10" reversible="false">
+        <annotation>
+          <PropensityType> k=kb_LacI_RiboB_lacR_ type=massaction</PropensityType>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="protein_lacR" stoichiometry="2" constant="false"/>
+          <speciesReference species="dna_dna_BASIC_SEVA_26_forward_dna_Terminator1_forward_dna_TetR_RiboA_forward_dna_UTR1_RBS2_forward_dna_LacI_forward_dna_UTR2_RBS2_forward_dna_sfGFP_forward_dna_Terminator2_forward_dna_LacI_RiboB_forward_dna_UTR3_RBS2_forward_dna_TetR_forward_circular_" stoichiometry="1" constant="false"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="ordered_polymer_dna_BASIC_SEVA_26_forward_dna_Terminator1_forward_dna_TetR_RiboA_forward_dna_UTR1_RBS2_forward_dna_LacI_forward_dna_UTR2_RBS2_forward_dna_sfGFP_forward_dna_Terminator2_forward_complex_dna_LacI_RiboB_protein_lacR_2x_forward__dna_UTR3_RBS2_forward_dna_TetR_forward_circular_" stoichiometry="1" constant="false"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kb_LacI_RiboB_lacR_ </ci>
+              <apply>
+                <power/>
+                <ci> protein_lacR </ci>
+                <cn type="integer"> 2 </cn>
+              </apply>
+              <ci> dna_dna_BASIC_SEVA_26_forward_dna_Terminator1_forward_dna_TetR_RiboA_forward_dna_UTR1_RBS2_forward_dna_LacI_forward_dna_UTR2_RBS2_forward_dna_sfGFP_forward_dna_Terminator2_forward_dna_LacI_RiboB_forward_dna_UTR3_RBS2_forward_dna_TetR_forward_circular_ </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="r10rev" name="r10rev" reversible="false">
+        <annotation>
+          <PropensityType> k=ku_LacI_RiboB_lacR_ type=massaction</PropensityType>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="ordered_polymer_dna_BASIC_SEVA_26_forward_dna_Terminator1_forward_dna_TetR_RiboA_forward_dna_UTR1_RBS2_forward_dna_LacI_forward_dna_UTR2_RBS2_forward_dna_sfGFP_forward_dna_Terminator2_forward_complex_dna_LacI_RiboB_protein_lacR_2x_forward__dna_UTR3_RBS2_forward_dna_TetR_forward_circular_" stoichiometry="1" constant="false"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="protein_lacR" stoichiometry="2" constant="false"/>
+          <speciesReference species="dna_dna_BASIC_SEVA_26_forward_dna_Terminator1_forward_dna_TetR_RiboA_forward_dna_UTR1_RBS2_forward_dna_LacI_forward_dna_UTR2_RBS2_forward_dna_sfGFP_forward_dna_Terminator2_forward_dna_LacI_RiboB_forward_dna_UTR3_RBS2_forward_dna_TetR_forward_circular_" stoichiometry="1" constant="false"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> ku_LacI_RiboB_lacR_ </ci>
+              <ci> ordered_polymer_dna_BASIC_SEVA_26_forward_dna_Terminator1_forward_dna_TetR_RiboA_forward_dna_UTR1_RBS2_forward_dna_LacI_forward_dna_UTR2_RBS2_forward_dna_sfGFP_forward_dna_Terminator2_forward_complex_dna_LacI_RiboB_protein_lacR_2x_forward__dna_UTR3_RBS2_forward_dna_TetR_forward_circular_ </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="r11" name="r11" reversible="false">
+        <annotation>
+          <PropensityType> k=ktx_LacI_RiboB_lacR_ type=massaction</PropensityType>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="ordered_polymer_dna_BASIC_SEVA_26_forward_dna_Terminator1_forward_dna_TetR_RiboA_forward_dna_UTR1_RBS2_forward_dna_LacI_forward_dna_UTR2_RBS2_forward_dna_sfGFP_forward_dna_Terminator2_forward_complex_dna_LacI_RiboB_protein_lacR_2x_forward__dna_UTR3_RBS2_forward_dna_TetR_forward_circular_" stoichiometry="1" constant="false"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="ordered_polymer_dna_BASIC_SEVA_26_forward_dna_Terminator1_forward_dna_TetR_RiboA_forward_dna_UTR1_RBS2_forward_dna_LacI_forward_dna_UTR2_RBS2_forward_dna_sfGFP_forward_dna_Terminator2_forward_complex_dna_LacI_RiboB_protein_lacR_2x_forward__dna_UTR3_RBS2_forward_dna_TetR_forward_circular_" stoichiometry="1" constant="false"/>
+          <speciesReference species="rna_rna_UTR3_RBS2_forward_rna_TetR_forward_rna_BASIC_SEVA_26_forward_rna_Terminator1_forward_" stoichiometry="1" constant="false"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> ktx_LacI_RiboB_lacR_ </ci>
+              <ci> ordered_polymer_dna_BASIC_SEVA_26_forward_dna_Terminator1_forward_dna_TetR_RiboA_forward_dna_UTR1_RBS2_forward_dna_LacI_forward_dna_UTR2_RBS2_forward_dna_sfGFP_forward_dna_Terminator2_forward_complex_dna_LacI_RiboB_protein_lacR_2x_forward__dna_UTR3_RBS2_forward_dna_TetR_forward_circular_ </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="r12" name="r12" reversible="false">
+        <annotation>
+          <PropensityType> k=ktl_UTR1_RBS2_simple_translation type=massaction</PropensityType>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="rna_rna_UTR1_RBS2_forward_rna_LacI_forward_rna_UTR2_RBS2_forward_rna_sfGFP_forward_rna_Terminator2_forward_" stoichiometry="1" constant="false"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="rna_rna_UTR1_RBS2_forward_rna_LacI_forward_rna_UTR2_RBS2_forward_rna_sfGFP_forward_rna_Terminator2_forward_" stoichiometry="1" constant="false"/>
+          <speciesReference species="protein_lacR" stoichiometry="1" constant="false"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> ktl_UTR1_RBS2_simple_translation </ci>
+              <ci> rna_rna_UTR1_RBS2_forward_rna_LacI_forward_rna_UTR2_RBS2_forward_rna_sfGFP_forward_rna_Terminator2_forward_ </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="r13" name="r13" reversible="false">
+        <annotation>
+          <PropensityType> k=ktl_UTR2_RBS2_simple_translation type=massaction</PropensityType>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="rna_rna_UTR1_RBS2_forward_rna_LacI_forward_rna_UTR2_RBS2_forward_rna_sfGFP_forward_rna_Terminator2_forward_" stoichiometry="1" constant="false"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="rna_rna_UTR1_RBS2_forward_rna_LacI_forward_rna_UTR2_RBS2_forward_rna_sfGFP_forward_rna_Terminator2_forward_" stoichiometry="1" constant="false"/>
+          <speciesReference species="protein_sfGFP" stoichiometry="1" constant="false"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> ktl_UTR2_RBS2_simple_translation </ci>
+              <ci> rna_rna_UTR1_RBS2_forward_rna_LacI_forward_rna_UTR2_RBS2_forward_rna_sfGFP_forward_rna_Terminator2_forward_ </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="r14" name="r14" reversible="false">
+        <annotation>
+          <PropensityType> k=ktl_UTR3_RBS2_simple_translation type=massaction</PropensityType>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="rna_rna_UTR3_RBS2_forward_rna_TetR_forward_rna_BASIC_SEVA_26_forward_rna_Terminator1_forward_" stoichiometry="1" constant="false"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="rna_rna_UTR3_RBS2_forward_rna_TetR_forward_rna_BASIC_SEVA_26_forward_rna_Terminator1_forward_" stoichiometry="1" constant="false"/>
+          <speciesReference species="protein_tetR" stoichiometry="1" constant="false"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> ktl_UTR3_RBS2_simple_translation </ci>
+              <ci> rna_rna_UTR3_RBS2_forward_rna_TetR_forward_rna_BASIC_SEVA_26_forward_rna_Terminator1_forward_ </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="r15" name="r15" reversible="false">
+        <annotation>
           <PropensityType> k=kdil__ type=massaction</PropensityType>
         </annotation>
         <listOfReactants>
-          <speciesReference species="protein_mCherry" stoichiometry="1" constant="false"/>
+          <speciesReference species="rna_rna_UTR3_RBS2_forward_rna_TetR_forward_rna_BASIC_SEVA_26_forward_rna_Terminator1_forward_" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
               <ci> kdil__ </ci>
-              <ci> protein_mCherry </ci>
+              <ci> rna_rna_UTR3_RBS2_forward_rna_TetR_forward_rna_BASIC_SEVA_26_forward_rna_Terminator1_forward_ </ci>
             </apply>
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="r6" name="r6" reversible="false">
+      <reaction id="r16" name="r16" reversible="false">
+        <annotation>
+          <PropensityType> k=kdil__ type=massaction</PropensityType>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="protein_lacR" stoichiometry="1" constant="false"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kdil__ </ci>
+              <ci> protein_lacR </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="r17" name="r17" reversible="false">
+        <annotation>
+          <PropensityType> k=kdil__ type=massaction</PropensityType>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="rna_rna_UTR1_RBS2_forward_rna_LacI_forward_rna_UTR2_RBS2_forward_rna_sfGFP_forward_rna_Terminator2_forward_" stoichiometry="1" constant="false"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kdil__ </ci>
+              <ci> rna_rna_UTR1_RBS2_forward_rna_LacI_forward_rna_UTR2_RBS2_forward_rna_sfGFP_forward_rna_Terminator2_forward_ </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="r18" name="r18" reversible="false">
+        <annotation>
+          <PropensityType> k=kdil__ type=massaction</PropensityType>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="protein_tetR" stoichiometry="1" constant="false"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kdil__ </ci>
+              <ci> protein_tetR </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="r19" name="r19" reversible="false">
         <annotation>
           <PropensityType> k=kdil__ type=massaction</PropensityType>
         </annotation>
@@ -156,19 +542,36 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="r7" name="r7" reversible="false">
+      <reaction id="r20" name="r20" reversible="false">
         <annotation>
           <PropensityType> k=kdil__rna_degredation type=massaction</PropensityType>
         </annotation>
         <listOfReactants>
-          <speciesReference species="rna_rna_RBS_forward_rna_RBS_forward_rna_CDS_forward_rna_RBS_forward_rna_CDS_forward_rna_Terminator_ConstituitivePromoter_forward_" stoichiometry="1" constant="false"/>
+          <speciesReference species="rna_rna_UTR3_RBS2_forward_rna_TetR_forward_rna_BASIC_SEVA_26_forward_rna_Terminator1_forward_" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
               <ci> kdil__rna_degredation </ci>
-              <ci> rna_rna_RBS_forward_rna_RBS_forward_rna_CDS_forward_rna_RBS_forward_rna_CDS_forward_rna_Terminator_ConstituitivePromoter_forward_ </ci>
+              <ci> rna_rna_UTR3_RBS2_forward_rna_TetR_forward_rna_BASIC_SEVA_26_forward_rna_Terminator1_forward_ </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="r21" name="r21" reversible="false">
+        <annotation>
+          <PropensityType> k=kdil__rna_degredation type=massaction</PropensityType>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="rna_rna_UTR1_RBS2_forward_rna_LacI_forward_rna_UTR2_RBS2_forward_rna_sfGFP_forward_rna_Terminator2_forward_" stoichiometry="1" constant="false"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kdil__rna_degredation </ci>
+              <ci> rna_rna_UTR1_RBS2_forward_rna_LacI_forward_rna_UTR2_RBS2_forward_rna_sfGFP_forward_rna_Terminator2_forward_ </ci>
             </apply>
           </math>
         </kineticLaw>

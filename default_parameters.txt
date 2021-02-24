@@ -58,3 +58,20 @@ simple_transcription	strong	ktx	0.4775625	Above rescaled by ktx for simple trans
 	combinatorial_promoter_leak	kexpress	0.0028125	1% of kexpress default
 	regulated_promoter_leak	ktx	0.0005	1% of ktx default
 	regulated_promoter_leak	kexpress	0.0028125	1% of kexpress default
+simple_translation	UTR1_RBS1	ktl	0.06	
+simple_translation	UTR1_RBS2	ktl	0.075	
+simple_translation	UTR1_RBS3	ktl	0.6	
+simple_translation	UTR2_RBS1	ktl	0.06	
+simple_translation	UTR2_RBS2	ktl	0.075	
+simple_translation	UTR2_RBS3	ktl	0.6	
+simple_translation	UTR3_RBS1	ktl	0.06	
+simple_translation	UTR3_RBS2	ktl	0.075	
+simple_translation	UTR3_RBS3	ktl	0.6	
+	LacI_RiboB_leak	ktx	1	
+	TetR_RiboA_leak	ktx	1	
+	LacI_RiboB_lacR	ktx	0.0001	
+	TetR_RiboA_tetR	ktx	0.0001	
+	TetR_RiboA_tetR	kb	500	
+	TetR_RiboA_tetR	ku	1	
+	LacI_RiboB_lacR	kb	500	
+	LacI_RiboB_lacR	ku	1	
